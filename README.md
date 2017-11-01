@@ -34,7 +34,7 @@ This is the account creation page
 This is the password recovery page
 
 
-#### /account/active
+#### /account/activate
 
 This is the activation screen for a new account
 
