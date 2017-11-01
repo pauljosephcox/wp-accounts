@@ -1,4 +1,4 @@
-# Wordoress Member Accounts
+# WordPress Member Accounts
 A simple wordpress user management system.
 
 
