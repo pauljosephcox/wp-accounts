@@ -227,7 +227,6 @@ class Accounts {
 
 			if($accountpage == 'dashboard'){
 
-
 				Utils::template_include('login.php');
 				return;
 
