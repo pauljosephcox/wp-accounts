@@ -4,7 +4,7 @@ A simple wordpress user management system.
 
 
 ## Quick Intro
-The Accounts plugin is built entirely on wordpress actions. Parsing the url into segments and calling actions based on the url referenced from /account. This page is built into wordpress so that it can not be deleted. Any slug after /account will be run as a do_actions.
+The Accounts plugin is built entirely on wordpress actions by parsing the url into segments and calling actions based on the url referenced from /account. This page is built into wordpress so that it can not be deleted. Any slug after /account will be run as a do_actions.
 
 *For Example*
 http://website.dev/account/create
@@ -19,22 +19,22 @@ do_action('accounts_after_content_create');
 ## Default Endpoints
 ------
 
-####/account/
+#### /account/
 This is the default dashboard or login screen.
 Actions can be added to the dashboard using ```add_action('accounts_the_content_dashboard');```
 
 
-####/account/create/
+#### /account/create/
 
 This is the account creation page
 
 
-####/account/lostpassword
+#### /account/lostpassword
 
 This is the password recovery page
 
 
-####/account/active
+#### /account/active
 
 This is the activation screen for a new account
 
